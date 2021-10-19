@@ -1,0 +1,34 @@
+img {
+    height: 350px;
+    width: 500px
+} 
+body {
+    background-image: url("../images/desert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-1 {
+    height: 350px;
+    width: 500px;
+    background-image: url("../images/ocean.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: right bottom; */
+}
+
+.container-1 p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.45em;
+    font-weight: bold;
+}
+
+#paragraph-1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.45em;
+    font-weight: bold;
+    background-image: url("../images/ocean.jpg") ;
+    background-size: 100% 1.45em;
+}

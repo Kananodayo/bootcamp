@@ -1,0 +1,72 @@
+* {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: crimson;
+    font-size: 20px;
+}
+
+.chapter {
+    background-color: lightsalmon;
+    /* font-size: 20%;  */
+}
+
+h1 {
+    font-weight: lighter;
+    text-transform: capitalize;
+    text-decoration: overline;
+    text-align: center;
+    /* text-shadow: X Y Z color; */
+    text-shadow: 2px 2px 2px red;
+    letter-spacing: 20px;
+}
+
+
+h2{
+    font-size: 1.25em;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+#chapter-one {
+    color: rgb(187, 17, 164);
+}
+
+#chapter-two {
+    color: rgba(231,125,222,0.288);
+}
+
+#chapter-three{
+    color: #af8051;
+    background-color: #000;
+}
+
+.chapter-1 p {
+    font-weight: 700;
+}
+
+.chapter-3 p {
+   font-style: italic;
+    font-weight: bold;
+}
+.chapter-2 p {
+    font-weight: bold;
+    text-indent: 30px;
+    word-spacing: -5px;
+}
+ul {
+    /* list-style: lower-roman;
+    list-style-position: inside; */
+    background-color: red;
+    list-style: upper-roman inside;
+}
+
+ol {
+    list-style: circle;
+    /* list-style-position: outside; */
+    background-color: green;
+}
+li {
+    background-color: gray;
+}

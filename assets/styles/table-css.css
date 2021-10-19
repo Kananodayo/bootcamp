@@ -1,0 +1,38 @@
+table {
+    width: 50%;
+    height: 300px;
+    background-color: rgba(0, 0, 0,0.8);
+    color:rgba(255, 255,255,0.8);
+    empty-cells: hide;
+    border-spacing: 20px;
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+thead {
+    background-color: yellowgreen;
+    height: 200px;
+}
+th {
+/* background-color: green; */
+font-size: 30px;
+border: 1px solid green;
+/* color: purple; */
+}
+td {
+    /* background-color: yellow; */
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+tbody {
+    background-color: aqua;
+    height: 50px;
+}
+/*  background-color: black or white 
+
+    color name : black and white
+    rgb name : rgb(0.0.0) and white rgb(255. 255.255)
+    rgba name : rgba(0.0.0,1) and agba(255.255.255,1)
+    hexcoge name : #000000 and #ffffff
+   */
